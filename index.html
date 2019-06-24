@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Play with istio for intelligent traffic routing and observability</title>
+    <meta charset="utf-8">
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+        @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+        @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+        body {
+            font-family: 'Droid Serif';
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: 'Yanone Kaffeesatz';
+            font-weight: normal;
+            color: #0066A1;
+        }
+
+        .inverse {
+            background: #0066A1;
+        }
+
+        .inverse h1,
+        .inverse h2,
+        .inverse h3 {
+            color: white;
+        }
+
+        .tp {
+            background: #22354c;
+        }
+
+        .tp h1,
+        .tp h2,
+        .tp h3 {
+            color: white;
+        }
+
+        h1 {
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: bold;
+            font-size: 150px !important;
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 500px;
+        }
+
+        .remark-code,
+        .remark-inline-code {
+            font-family: 'Ubuntu Mono';
+        }
+		
+        /* Two-column layout */
+        .left-column {
+            color: #777;
+            width: 20%;
+            height: 92%;
+            float: left;
+        }
+		.left-column h3 {
+			color: #777;
+		}
+        .left-column h2:last-of-type, .left-column h3:last-child {
+            color: #0066A1;
+        }
+        .right-column {
+            width: 75%;
+            float: right;
+            padding-top: 1em;
+        }
+		
+		.remark-slide-content h3 {
+			font-size: 31px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <script src="js/remark-latest.min.js">
+    </script>
+    <script>
+
+
+        var slideshow = remark.create({
+            sourceUrl: 'data.md',
+            ratio: '16:9',
+            highlightStyle: 'monokai'
+        });
+    </script>
+</body>
+
+</html>
